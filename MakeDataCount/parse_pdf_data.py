@@ -9,18 +9,6 @@ import pandas as pd
 import pymupdf
 import logging
 
-@staticmethod
-def setup_logger(log_file_path="log_output.txt"):
-    """Setup logger to save logs to a text file and console."""
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s %(levelname)s: %(message)s',
-        handlers=[
-            logging.FileHandler(log_file_path, mode='w', encoding='utf-8'),
-            logging.StreamHandler()
-        ]
-    )
-setup_logger("logger.txt")
 
 class AcademicDocParser:
     """Class to parse academic documents and extract data"""

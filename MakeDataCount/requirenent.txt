@@ -1,3 +1,12 @@
+tqdm
 pandas
 docling
 pymupdf
+dotenv
+logging
+langchain_community
+langchain_core
+langchain_groq
+langchain-huggingface
+sentence_transformers
+faiss-gpu
