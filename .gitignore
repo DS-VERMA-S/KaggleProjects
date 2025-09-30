@@ -1,4 +1,4 @@
-*.ipynb
+**rule_class
 .__pycache__
 *.pyc
 .env
